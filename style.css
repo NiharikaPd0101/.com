@@ -1,0 +1,177 @@
+body
+{
+ font:15px/1.5 Arial,Helvetica,sans-serif;
+ padding:0;
+ margin:0;
+ background-color:#A9A9A9;
+}
+.container
+{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+header
+{
+position:relative;
+background:#000000;
+color:#39FF14;
+padding-top:30px;
+font-size:30px;
+text-transform:uppercase;
+letter-spacing:4px;
+text-decoration:none;
+overflow:hidden;
+transition:0.6s;
+min-height:70px;
+border-bottom:#FE0002 4px solid;
+}
+header .highlight,header .current a
+{
+ color:#15d1e6;
+ font-weight:bold;
+}
+header a
+{
+ color:#ffffff;
+ text-decoration:none;
+ text-transform:uppercase;
+ font-size:16px;
+}
+header ul
+{
+ margin:0;
+ padding:0;
+}
+header li
+{
+ float:left;
+ display:inline;
+ padding:0 20px 0 20px;
+}
+header #branding
+{
+ float:left;
+}
+header #branding h1
+{
+ margin:0;
+}
+header nav
+{
+ float:right;
+ margin-top:10px
+}
+header a:hover{
+ color:#cccccc;
+ font-weight: bold;
+ transition: 1s;
+ animation: left;
+}
+#showcase{
+  min-height: 400px;
+  background:url('../img/4k.jpg')no-repeat; 0 -400px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  animation-play-state: running;
+  transition-duration: 1s;
+  margin-bottom:#ADD8E6;
+}
+showcase h1
+{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+#newsletter
+{
+  padding:10px;
+  color:#ffffff;
+  background:#d10000;
+}
+#newsletter h1
+{
+  float:left;
+}
+#newsletter form{
+  float:right;
+  margin-top: 10px
+}
+#newsletter input[type="text"]
+{
+  padding:10px;
+  height:20px;
+  width: 420px;
+}
+.button1
+{
+  height:44px;
+  background:#e8491d;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#000000;
+  font-weight: bold;
+}
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float:left;
+  width: 30%;
+  padding: 10px;
+  text-align:center;
+}
+#boxes .box img{
+  width: 200px;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #ff0000;
+  text-align: center;
+}
+footer a
+{
+  color:#ffffff;
+  font-size: 15px;
+  float: right;
+  padding top:0;
+  padding bottom: 20px;
+}
+#skill .sk
+{
+  text-align: center;
+  font-weight: bold;
+  font-family: Gill Sans, sans-serif
+  color: #e95313;
+  font-size: 50px;
+}
+#skill
+{
+  height: 80px;
+  color:#e90c0c;
+  background:#000000;
+  text-align: center;
+  padding-bottom: 80px;
+}
+aside #sidebar
+{
+  float:right;
+  width:30%;
+  margin-top: 10px;
+}
+article #main-col
+{
+  float:left;
+  width:45%;
+}
+.dark
+{
+  padding: 15px;
+  background: #35424a;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
