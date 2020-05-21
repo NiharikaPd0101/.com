@@ -125,7 +125,7 @@ showcase h1
   width: 200px;
 }
 footer{
-  padding: 20px;
+  padding: 30px;
   margin-top: 20px;
   color: #ffffff;
   background-color: #ff0000;
@@ -135,9 +135,8 @@ footer a
 {
   color:#ffffff;
   font-size: 15px;
-  float: right;
-  padding top:0;
-  padding bottom: 20px;
+  float: center;
+
 }
 #skill .sk
 {
@@ -173,5 +172,25 @@ article #main-col
   color:#ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#link1
+{
+  text-shadow:0.15em 0.15em #333;
+  text-transform: capitalize;
+  text=border-left-width: bold;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+}
+#link1 a
+{
+  float:left;
+  width: 33%;
 
+}
+#center
+{
+  text-align: center;
+  float: center;
+  text-decoration: underline;
 }
