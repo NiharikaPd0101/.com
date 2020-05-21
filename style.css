@@ -70,7 +70,7 @@ header a:hover{
 }
 #showcase{
   min-height: 400px;
-  background:url("4k.jpg")no-repeat; 0 -400px;
+  background:url('../img/4k.jpg')no-repeat; 0 -400px;
   text-align: center;
   color: #ffffff;
   font-size: 40px;
@@ -113,13 +113,21 @@ showcase h1
   font-weight: bold;
 }
 #boxes{
-  margin-top: 20px;
+  margin-top: 10px;
+}
+#boxes a
+{
+  font-size: 25px;
+  font-weight:bold;
+  color: #ffffff;
 }
 #boxes .box{
   float:left;
+  font-size: 22px;
   width: 30%;
   padding: 10px;
   text-align:center;
+  text-shadow: 3px 3px 7px #012;
 }
 #boxes .box img{
   width: 200px;
@@ -150,9 +158,10 @@ footer a
 {
   height: 80px;
   color:#e90c0c;
-  background:#000000;
+  background: #202020;
   text-align: center;
   padding-bottom: 80px;
+  text-shadow: 2px 2px 8px #666;
 }
 aside #sidebar
 {
@@ -193,4 +202,8 @@ article #main-col
   text-align: center;
   float: center;
   text-decoration: underline;
+}
+#main{
+  font-size: 22px;
+  text-align: justify;
 }
