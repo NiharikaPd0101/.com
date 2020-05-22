@@ -10,7 +10,7 @@ body
 width:80%;
 margin:auto;
 overflow:hidden;
-text-shadow:0.08em 0.08em #70;
+text-shadow:0.08em 0.08em #070;
 }
 header
 {
@@ -213,5 +213,5 @@ article #main-col
 }
 .container h3
 {
-  color: #81e30f;
+  color:#8DFF00;
 }
