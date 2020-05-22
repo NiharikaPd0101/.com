@@ -14,8 +14,8 @@ overflow:hidden;
 header
 {
 position:relative;
-background:#000000;
-color:#39FF14;
+background:#19925b;
+color:#e2d904;
 padding-top:30px;
 font-size:30px;
 text-transform:uppercase;
@@ -28,7 +28,7 @@ border-bottom:#FE0002 4px solid;
 }
 header .highlight,header .current a
 {
- color:#15d1e6;
+ color:#80ee00;
  font-weight:bold;
 }
 header a
@@ -63,20 +63,21 @@ header nav
  margin-top:10px
 }
 header a:hover{
- color:#cccccc;
+ color:#00eeac;
  font-weight: bold;
  transition: 1s;
  animation: left;
 }
 #showcase{
-  min-height: 400px;
-  background:url('../img/4k.jpg')no-repeat; 0 -400px;
+  min-height: 300px;
+  background:url('../img/4k.jpg')no-repeat;
   text-align: center;
-  color: #ffffff;
+  text-align: right;
+  color:#ffffff;
   font-size: 40px;
   animation-play-state: running;
   transition-duration: 1s;
-  margin-bottom:#ADD8E6;
+  margin-bottom:#870274;
 }
 showcase h1
 {
@@ -87,7 +88,7 @@ showcase h1
 {
   padding:10px;
   color:#ffffff;
-  background:#d10000;
+  background:#1189d2;
 }
 #newsletter h1
 {
@@ -106,7 +107,9 @@ showcase h1
 .button1
 {
   height:44px;
-  background:#e8491d;
+  background:#139dd2;
+  border: 3px;
+  border-radius: 9px;
   padding-left: 20px;
   padding-right: 20px;
   color:#000000;
@@ -136,7 +139,7 @@ footer{
   padding: 30px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #ff0000;
+  background-color:#7f18ec;
   text-align: center;
 }
 footer a
@@ -157,8 +160,8 @@ footer a
 #skill
 {
   height: 80px;
-  color:#e90c0c;
-  background: #202020;
+  color:#ece318;
+  background: #13d26d;
   text-align: center;
   padding-bottom: 80px;
   text-shadow: 2px 2px 8px #666;
@@ -206,4 +209,8 @@ article #main-col
 #main{
   font-size: 22px;
   text-align: justify;
+}
+.container h3
+{
+  color: #81e30f;
 }
